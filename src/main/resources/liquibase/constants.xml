@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangelog
+        logicalFilePath="path-independent"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog-3.5.xsd">
+
+    <property name="password.default" value="2019q1w2e3r4" global="true"/>
+
+
+    <property name="trvl.schema.name" value="trvl" global="true"/>
+    <property name="root.schema.name" value="root" global="true"/>
+</databaseChangelog>
